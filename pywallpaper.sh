@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # --- Pick a random wallpaper ---
-wall=$(find ~/scp/pywallpaper/ -type f \( -name "*.jpg" -o -name "*.png" \) | shuf -n 1)
+wall=$(find ~/path/to/folder/ -type f \( -name "*.jpg" -o -name "*.png" \) | shuf -n 1)
 
 # --- Set wallpaper ---
 xwallpaper --zoom "$wall"
