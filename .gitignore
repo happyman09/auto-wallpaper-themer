@@ -1,0 +1,16 @@
+# Pywal cache files
+*.cache
+*.wal
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup / temporary files
+*.swp
+*.tmp
+*.bak
+*.log
+
+# Cava generated files (if any)
+config
