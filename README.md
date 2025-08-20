@@ -2,9 +2,20 @@
 
 Automatic wallpaper & color theme generator for terminals, notifications, and Cava — aesthetic unleashed.
 
+![Alt demo](assets/Screenshot_20250820_165557.png)
+
+![Alt demo](assets/Screenshot_20250820_165507.png)
+
+![Alt demo](assets/Screenshot_20250820_165755.png)
+
+![Alt demo](assets/Screenshot_20250820_165638.png)
+
+![Alt demo](assets/Screenshot_20250820_165912-1.png)
+<figcaptio><a href="https://github.com/happyman09/auto-wallpaper-themer/tree/main/assets">click to see in folder</a></figcaption>
+
 ## Features:  
 - Picks a random wallpaper from your folder with wallpapers inside 
-- Updates terminal colors with Pywal  
+- Updates terminal colors with Pywal 
 - Syncs colors to Cava visualizer and Dunst notifications  
 - Fully automated, aesthetic-focused  
 
