@@ -12,7 +12,7 @@ Automatic wallpaper & color theme generator for terminals, notifications, and Ca
 Clone the repo:  
 
 ```
-git clone https://github.com/happyman9029/aesthetic-wallpapers.git
+git clone https://github.com/happyman09/aesthetic-wallpapers.git
 cd aesthetic-wallpapers
 ```
 
