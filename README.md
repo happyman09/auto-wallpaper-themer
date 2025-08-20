@@ -37,7 +37,7 @@ cp config.base config ~/.config/cava/
 
 ## Notes:
 
-   - Ensure `jq`, `pywal`, `xwallpaper`, `xdotool`, `Cava`, and `Dunst` are installed
+   - Ensure `jq`, `pywal`, `xwallpaper`, `xdotool`, `libnotify`, `Cava`, and `Dunst` are installed
 
    - The script updates your terminal, notifications, and visualizer colors based on the selected wallpaper
 
