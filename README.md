@@ -21,6 +21,7 @@ cd aesthetic-wallpapers
 chmod +x pywallpaper.sh
 ./pywallpaper.sh
 ```
+**Remainder to change path to folder**
 Your wallpaper, Pywal colors, Cava, and Dunst will all update automatically.
 
 ***⚠️Before running the script, make sure to copy both config.base and config to your Cava configuration directory (~/.config/cava/) so the visualizer works correctly:⚠️***
@@ -41,3 +42,5 @@ cp config.base config ~/.config/cava/
    - The script updates your terminal, notifications, and visualizer colors based on the selected wallpaper
 
    - You can modify `config.base` for default Cava settings and the script will overwrite `config` dynamically
+
+   - Works in `xorg` based setups, full funtionality on Wayland is not guaranteed
