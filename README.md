@@ -11,7 +11,7 @@ Automatic wallpaper & color theme generator for terminals, notifications, and Ca
 ![Alt demo](assets/Screenshot_20250820_165638.png)
 
 ![Alt demo](assets/Screenshot_20250820_165912-1.png)
-<figcaptio><a href="https://github.com/happyman09/auto-wallpaper-themer/tree/main/assets">click to see the wallpapers used</a></figcaption>
+<figcaptio><a href="https://github.com/happyman09/auto-wallpaper-themer/tree/main/assets">Check out the wallpapers used!</a></figcaption>
 
 ## Features:  
 - Picks a random wallpaper from your folder with wallpapers inside 
