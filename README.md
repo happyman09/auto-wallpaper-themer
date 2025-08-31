@@ -1,6 +1,6 @@
 # **Auto Wallpaper Themer**
 
-Auto-randomnize your wallpapers in yours specified folder and set the randomnized one as your current desktop wallpaper along with auto-generated pywall colors corresponding to the wallpaper, which also applies colors to vanilla 'Dunst' notify and 'Cava' audio visualizer.
+Auto-randomnize your wallpapers in yours specified folder and set the randomnized one as your current desktop wallpaper along with auto-generated pywall colors corresponding to the wallpaper, which also applies colors to vanilla `Dunst` notify and `Cava` audio visualizer.
 
 ![Alt demo](assets/Screenshot_20250820_165557.png)
 
