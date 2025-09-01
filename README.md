@@ -1,57 +1,84 @@
-# **Auto Wallpaper Themer**
+![Stars](https://img.shields.io/github/stars/happyman09/auto-wallpaper-themer?style=flat-square)
+![Issues](https://img.shields.io/github/issues/happyman09/auto-wallpaper-themer?style=flat-square)
+![License](https://img.shields.io/github/license/happyman09/auto-wallpaper-themer?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/happyman09/auto-wallpaper-themer?style=flat-square)
 
-Auto-randomnize your wallpapers in yours specified folder and set the randomnized one as your current desktop wallpaper along with auto-generated pywall colors corresponding to the wallpaper, which also applies colors to vanilla `Dunst` notify and `Cava` audio visualizer.
+# 🌌 Auto Wallpaper Themer  
 
-![Alt demo](assets/Screenshot_20250820_165557.png)
+**Give your desktop a fresh look every time.** 
 
-![Alt demo](assets/Screenshot_20250820_165507.png)
+**Auto-randomize** your wallpapers in yours **specified folder** and set the randomized one as your current desktop wallpaper along with **auto-generated pywall colors** corresponding to the wallpaper, which also applies colors to **Dunst** notify and **Cava** audio visualizer by using [Pywal](https://github.com/dylanaraps/pywal).  
 
-![Alt demo](assets/Screenshot_20250820_165755.png)
+---
 
-![Alt demo](assets/Screenshot_20250820_165638.png)
+## ✨ Features
+- 🖼️ **Random Wallpaper Picker** – grabs wallpapers from your folder  
+- 🎨 **Pywal Color Schemes** – generates matching terminal themes  
+- 🔔 **Dunst Integration** – notifications styled to match  
+- 🎵 **Cava Visualizer Sync** – reactive colors tied to wallpaper  
+- ⚡ **Fully Automated** – one script, cohesive aesthetics  
 
-![Alt demo](assets/Screenshot_20250820_165912-1.png)
-<figcaptio><a href="https://github.com/happyman09/auto-wallpaper-themer/tree/main/assets">Check out the wallpapers used!</a></figcaption>
+---
 
-## Features:  
-- Picks a random wallpaper from your folder with wallpapers inside 
-- Updates terminal colors with Pywal 
-- Syncs colors to Cava visualizer and Dunst notifications  
-- Fully automated, aesthetic-focused  
+## 📸 Screenshots
+![Wallpaper + Pywal](assets/Screenshot_20250820_165557.png)  
+![Terminal + Dunst](assets/Screenshot_20250820_165507.png)  
+![Cava Visualization](assets/Screenshot_20250820_165755.png)  
+![Combined Setup](assets/Screenshot_20250820_165638.png)  
+![Another Demo](assets/Screenshot_20250820_165912-1.png)  
 
-## Installation & Usage:  
-Clone the repo:  
+🔗 [Check out the wallpapers used →](assets/)  
 
+---
+
+## ⚙️ Installation & Usage  
+## ⚠️ Reminder to update the wallpaper folder path inside the script. 
+### ▶️ Make the script executable and run it:
 ```
 git clone https://github.com/happyman09/auto-wallpaper-themer.git
 cd auto-wallpaper-themer
-```
-
-## Make the script executable and run it:
-```
 chmod +x pywallpaper.sh
 ./pywallpaper.sh
 ```
-**Remainder to change path to folder**
-Your wallpaper, Pywal colors, Cava, and Dunst will all update automatically.
+---
 
-***⚠️Before running the script, make sure to copy both config.base and config to your Cava configuration directory (~/.config/cava/) so the visualizer works correctly:⚠️***
+## 🔄 Auto-start on login
+To run the script automatically when X starts, add this to your ~/.xinitrc:
+```~/path/to/script/pywallpaper.sh &```
 
-```
-cp config.base config ~/.config/cava/
-```
+---
 
-### Config Files:
+## ⚠️ Setup Requirements:
+### Before running, copy both configs to your Cava directory:
+```cp config.base config ~/.config/cava/```
 
-    config.base → default/template Cava config for reference    
-    config → dynamic Cava color config used by the script
+**`config.base`** → template Cava config (edit defaults here)
 
-## Notes:
+**`config`** → dynamically overwritten by the script
 
-   - Ensure `jq`, `pywal`, `xwallpaper`, `xdotool`, `libnotify`, `Cava`, and `Dunst` are installed
+---
 
-   - The script updates your terminal, notifications, and visualizer colors based on the selected wallpaper
+## 📦 Dependencies
+Make sure the following are installed:
+- `jq`
+- `pywal`
+- `xwallpaper`
+- `xdotool`
+- `libnotify`
+- `cava`
+- `dunst`
 
-   - You can modify `config.base` for default Cava settings and the script will overwrite `config` dynamically
+---
 
-   - Works in `xorg` based setups, full funtionality on Wayland is not guaranteed
+## 📝 Notes
+- Works best on Xorg (Wayland support is limited)
+- Customize `config.base` for your Cava defaults
+- The script auto-updates `config` on each wallpaper change for Cava
+
+## 🤝 Contributing
+Got ideas or fixes? PRs are welcome. Open an issue first to discuss big changes. 
+
+## 📜 License
+MIT License – feel free to use, modify, and share.
+
+---
