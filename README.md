@@ -75,6 +75,19 @@ Make sure the following are installed:
 - Customize `config.base` for your Cava defaults
 - The script auto-updates `config` on each wallpaper change for Cava
 
+## 🌐 Ecosystem Integration
+**Auto-Wallpaper-Themer plays nicely with my suckless setup:**
+
+🖥️ **`dwm`** – https://github.com/happyman09/dwm.git
+
+⌨️ **`st`** (Simple Terminal) – https://github.com/happyman09/st.git
+
+📊 **`dwmblocks`** – https://github.com/happyman09/dwmblocks.git
+
+🧭 **`dmenu`** – https://github.com/happyman09/dmenu.git
+
+---
+
 ## 🤝 Contributing
 Got ideas or fixes? PRs are welcome. Open an issue first to discuss big changes. 
 
