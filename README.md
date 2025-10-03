@@ -9,6 +9,8 @@
 
 **Auto-randomize** your wallpapers in yours **specified folder** and set the randomized one as your current desktop wallpaper along with **auto-generated pywall colors** corresponding to the wallpaper, which also applies colors to **Dunst** notify and **Cava** audio visualizer by using [Pywal](https://github.com/dylanaraps/pywal).  
 
+Watch on Youtube- https://youtu.be/IRB67VRYY6w?si=D5IpwRDTwqvJMz_E
+
 ---
 
 ## ✨ Features
